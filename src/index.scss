@@ -1,0 +1,35 @@
+$myColor: #333;
+
+h1 {
+  color: $myColor;
+}
+.app {
+  padding: 30px;
+}
+
+ .filter{
+  display: flex;
+  justify-content: space-between;
+}
+.all-btn{
+  display: flex;
+  justify-content: space-between;
+}
+.todo-items {
+  margin-bottom: 10px;
+}
+.todo{
+    h6{
+      font-weight: bold;    
+    }
+}
+.update-btn{
+
+        button{
+          max-width: 12vw;
+          width: 100%;
+        }
+}
+.active{
+  background-color: blue;
+}
